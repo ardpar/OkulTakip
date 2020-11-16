@@ -12,7 +12,7 @@ namespace OgrenciTakipSistemi.Controllers
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
-
+        OkulContext context = new OkulContext();
         public HomeController(ILogger<HomeController> logger)
         {
             _logger = logger;
@@ -20,6 +20,8 @@ namespace OgrenciTakipSistemi.Controllers
 
         public IActionResult Index()
         {
+            
+            
             return View();
         }
 

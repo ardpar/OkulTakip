@@ -8,6 +8,11 @@ namespace OgrenciTakipSistemi.Models
 {
     public class OkulContext:DbContext
     {
+
+        public OkulContext()
+        {
+
+        }
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             optionsBuilder.UseSqlServer("Server=DESKTOP-G1BTODO\\SQLEXPRESS;Database=EFCore-SchoolDB;Trusted_Connection=True");
