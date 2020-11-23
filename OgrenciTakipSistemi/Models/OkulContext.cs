@@ -15,7 +15,7 @@ namespace OgrenciTakipSistemi.Models
         }
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer("Server=DESKTOP-G1BTODO\\SQLEXPRESS;Database=EFCore-SchoolDB;Trusted_Connection=True");
+            optionsBuilder.UseSqlServer("Server=MSI\\SQLEXPRESS;Database=EFCore-SchoolDB;Trusted_Connection=True");
         }
         public DbSet<Not> Notlar { get; set; }
         public DbSet<Ogrenci> Ogrenciler { get; set; }

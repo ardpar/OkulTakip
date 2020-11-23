@@ -2,7 +2,7 @@
 
 namespace OgrenciTakipSistemi.Migrations
 {
-    public partial class intialdatabase : Migration
+    public partial class Initial : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {

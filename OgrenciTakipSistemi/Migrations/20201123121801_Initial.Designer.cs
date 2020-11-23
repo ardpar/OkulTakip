@@ -9,8 +9,8 @@ using OgrenciTakipSistemi.Models;
 namespace OgrenciTakipSistemi.Migrations
 {
     [DbContext(typeof(OkulContext))]
-    [Migration("20201115121338_intial database")]
-    partial class intialdatabase
+    [Migration("20201123121801_Initial")]
+    partial class Initial
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
