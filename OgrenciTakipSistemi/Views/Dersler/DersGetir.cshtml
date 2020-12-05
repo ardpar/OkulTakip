@@ -1,0 +1,18 @@
+﻿@model Ders
+@{
+    ViewData["Title"] = "DersGetir";
+}
+
+<form asp-controller="Dersler" asp-action="Guncelle" method="post" class="form-group">
+    <input type="text" hidden class="form-control" asp-for="@Model.Id" />
+    <div>
+        <label>Ders Adi</label>
+        <input type="text" class="form-control" asp-for="@Model.Isim" />
+        
+    </div>
+    <br />
+    <div>
+        <button class="btn btn-primary">Ders Guncelle</button>
+    </div>
+</form>
+
